@@ -158,7 +158,7 @@ body {
   align-items: center;
   background-color: black; }
 
-.smallChipInnerWrapper, .macAirImgWrapper, .macProInnerWrapper, .macProImgWrapper, .macMiniImgWrapper, .macMini {
+.smallChipInnerWrapper, .macAirImgWrapper, .macProImgWrapper, .macMiniImgWrapper, .macMini {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -216,13 +216,15 @@ body {
 .macProImgWrapper {
   background-image: url("../assets/macPro.jpg");
   width: 1472px;
-  height: 540px;
+  height: 900px;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 0;
-  margin-top: 100px; }
+  background-position-y: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
 
-.macProInnerWrapper h3 {
+.macProImgWrapper h3 {
   margin-top: 0; }
 
 /*----- MAC MINI -----*/
@@ -402,11 +404,11 @@ a.noBorder {
   .macProImgWrapper {
     background-image: url("../assets/macProMedium.jpg");
     width: 1000px;
-    height: 450px;
+    height: 760px;
     background-position-y: -20px;
     margin: 0; }
 
-  .macProInnerWrapper .subhead {
+  .macProImgWrapper .subhead {
     width: 600px; }
 
   /*----- MAC MINI -----*/
@@ -487,7 +489,7 @@ a.noBorder {
   .availableStartingText {
     font-size: 19px; }
 
-  .smallChipInnerWrapper, .macAirImgWrapper, .macProInnerWrapper, .macProImgWrapper, .macMiniImgWrapper {
+  .smallChipInnerWrapper, .macAirImgWrapper, .macProImgWrapper, .macMiniImgWrapper {
     padding-bottom: 90px; }
 
   /*----- FUTURE OF MAC -----*/
@@ -548,7 +550,7 @@ a.noBorder {
     .macPro .macProImgWrapper {
       background-image: url("../assets/macProSmall.jpg");
       width: 100%;
-      height: 270px;
+      height: 500px;
       background-position-y: -90px;
       padding-bottom: 15px;
       margin-top: 0; }
