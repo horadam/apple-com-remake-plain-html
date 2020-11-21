@@ -562,8 +562,7 @@ a.noBorder {
 
   /*----- MAC MINI -----*/
   .macMini {
-    height: 650px;
-    position: relative; }
+    height: 650px; }
     .macMini .macMiniImgWrapper {
       display: flex;
       flex-direction: column;
