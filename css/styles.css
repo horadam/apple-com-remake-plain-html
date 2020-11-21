@@ -513,7 +513,9 @@ a.noBorder {
     background-image: url("../assets/m1ChipOnlySmall.jpg"); }
   .smallChip .smallChipInnerWrapper {
     background-image: url("../assets/m1chipSmall.jpg");
-    width: 734px;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     height: 400px;
     background-size: auto;
     background-position: center;
@@ -523,7 +525,7 @@ a.noBorder {
     padding: 0;
     width: 250px; }
   .smallChip .subhead {
-    width: 60%; }
+    width: 85vw; }
   .smallChip .button {
     padding: 6px 20px; }
 
@@ -576,6 +578,12 @@ a.noBorder {
         width: 450px; }
 
   /*----- FOOTER -----*/
+  .footer {
+    width: 100vw;
+    padding: 20px 0;
+    padding-left: 3vw;
+    padding-right: 3vw; }
+
   .footerNav {
     flex-direction: column;
     padding-bottom: 3px; }
