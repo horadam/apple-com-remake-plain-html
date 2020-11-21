@@ -473,7 +473,6 @@ a.noBorder {
   .subhead {
     font-size: 17px;
     line-height: 160%;
-    width: 340px;
     margin-bottom: 20px; }
 
   .button {
@@ -524,7 +523,7 @@ a.noBorder {
     padding: 0;
     width: 250px; }
   .smallChip .subhead {
-    width: 440px; }
+    width: 60%; }
   .smallChip .button {
     padding: 6px 20px; }
 
@@ -537,7 +536,7 @@ a.noBorder {
   .macAir .headline {
     margin-bottom: 15px; }
   .macAir .subhead {
-    width: 400px;
+    width: 80%;
     margin-top: 0;
     margin-bottom: 7px; }
 
@@ -557,7 +556,7 @@ a.noBorder {
     .macPro .subhead {
       margin-top: 0;
       margin-bottom: 7px;
-      width: 450px; }
+      width: 80%; }
 
   /*----- MAC MINI -----*/
   .macMini {
