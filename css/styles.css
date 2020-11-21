@@ -575,7 +575,7 @@ a.noBorder {
       padding-top: 600px; }
       .macMini .macMiniImgWrapper .subhead {
         margin-bottom: 7px;
-        width: 450px; }
+        width: 90%; }
 
   /*----- FOOTER -----*/
   .footer {
