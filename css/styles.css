@@ -278,11 +278,10 @@ body {
   padding: 20px 0; }
 
 .footerNavColumn {
-  width: 20%;
-  /* padding: 10px; */ }
+  width: 20%; }
 
 .footerNavLabel {
-  font-weight: bold;
+  font-weight: normal;
   color: white; }
 
 .plusSign {
